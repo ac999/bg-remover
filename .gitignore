@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+build/
+dist/
+*.egg-info/
+
+# AI Models (rembg downloads them here by default)
+.u2net/
+
+# Project Specific (Your images)
+input_frames/
+frames/
+
+# Environment / Tools
+.uv/
+.env
+.DS_Store
